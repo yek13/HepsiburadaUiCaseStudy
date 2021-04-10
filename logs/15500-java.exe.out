@@ -1,0 +1,65 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 924milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 924"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 61026"}
+{"logLevel":"info","message":"Listening on port:61026"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductTest.evaluationsControl' and 'Tests.ProductTest.evaluationsControl'"}
+{"logLevel":"debug","message":"Found Kullanıcı eğer değerlendirmeler tab\u2019ında hiç değerlendirme gelmiyorsa herhangi bir işlem yapmaz. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.HomeTest.setSearchBar' and 'Tests.HomeTest.setSearchBar'"}
+{"logLevel":"debug","message":"Found Kullanıcı {} anahtar kelimesini arama kısmına yazar. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'org.example.StepImplementation.ensureInstallationInstructionsAreAvailable'"}
+{"logLevel":"debug","message":"Found Ensure installation instructions are available in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductTest.sortElementControl' and 'Tests.ProductTest.sortElementControl'"}
+{"logLevel":"debug","message":"Found Sırala dropbox'ı doğru şekilde kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductTest.selectTabsNavigation' and 'Tests.ProductTest.selectTabsNavigation'"}
+{"logLevel":"debug","message":"Found Kullanıcı, seçilen ürün için ürün detayda {} tabına gider. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.gotoGetStartedPage' and 'org.example.StepImplementation.gotoGetStartedPage'"}
+{"logLevel":"debug","message":"Found Go to Gauge Get Started Page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.HomeTest.userVisitSite' and 'Tests.HomeTest.userVisitSite'"}
+{"logLevel":"debug","message":"Found Kullanıcı {} sitesini ziyaret eder in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.implementation1' and 'org.example.StepImplementation.implementation1'"}
+{"logLevel":"debug","message":"Found Open the Gauge homepage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProdutcsListTest.isTrueSearchedProduct' and 'Tests.ProdutcsListTest.isTrueSearchedProduct'"}
+{"logLevel":"debug","message":"Found Aranan ürünün geldiği görülür. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductTest.selectEvaluationUseful' and 'Tests.ProductTest.selectEvaluationUseful'"}
+{"logLevel":"debug","message":"Found Kullanıcı gelen değerlendirmeler içerisinde ilk değerlendirmenin {} butonuna basar. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProdutcsListTest.selectRandomProduct' and 'Tests.ProdutcsListTest.selectRandomProduct'"}
+{"logLevel":"debug","message":"Found Listelenen ürünler arasından rastgele ürün seçilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductTest.clickSortDropbox' and 'Tests.ProductTest.clickSortDropbox'"}
+{"logLevel":"debug","message":"Found Sırala dropbox'ına tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductTest.getMessage' and 'Tests.ProductTest.getMessage'"}
+{"logLevel":"debug","message":"Found Kullanıcı {} yazısının geldiğini görür. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tListelenen ürünler arasından rastgele ürün seçilir. : public void selectRandomProduct()"}
+{"logLevel":"debug","message":"\tKullanıcı, seçilen ürün için ürün detayda {} tabına gider. : public void selectTabsNavigation(String key)"}
+{"logLevel":"debug","message":"\tKullanıcı gelen değerlendirmeler içerisinde ilk değerlendirmenin {} butonuna basar. : public void selectEvaluationUseful(String key)"}
+{"logLevel":"debug","message":"\tOpen the Gauge homepage : public void implementation1()"}
+{"logLevel":"debug","message":"\tGo to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tKullanıcı {} sitesini ziyaret eder : public void userVisitSite(String key)"}
+{"logLevel":"debug","message":"\tSırala dropbox'ı doğru şekilde kontrol edilir. : public void sortElementControl()"}
+{"logLevel":"debug","message":"\tAranan ürünün geldiği görülür. : public void isTrueSearchedProduct()"}
+{"logLevel":"debug","message":"\tEnsure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException"}
+{"logLevel":"debug","message":"\tKullanıcı eğer değerlendirmeler tab\u2019ında hiç değerlendirme gelmiyorsa herhangi bir işlem yapmaz. : public void evaluationsControl()"}
+{"logLevel":"debug","message":"\tSırala dropbox'ına tıklanır : public void clickSortDropbox()"}
+{"logLevel":"debug","message":"\tKullanıcı {} anahtar kelimesini arama kısmına yazar. : public void setSearchBar(String key)"}
+{"logLevel":"debug","message":"\tKullanıcı {} yazısının geldiğini görür. : public void getMessage(String key)"}
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 5938
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 29, 2021 5:46:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Kullanıcı {} sitesini ziyaret eder' using 'class Tests.HomeTest.userVisitSite"}
+{"logLevel":"debug","message":"Executing 'Kullanıcı {} anahtar kelimesini arama kısmına yazar.' using 'class Tests.HomeTest.setSearchBar"}
+{"logLevel":"debug","message":"Executing 'Aranan ürünün geldiği görülür.' using 'class Tests.ProdutcsListTest.isTrueSearchedProduct"}
+{"logLevel":"debug","message":"Executing 'Listelenen ürünler arasından rastgele ürün seçilir.' using 'class Tests.ProdutcsListTest.selectRandomProduct"}
+{"logLevel":"debug","message":"Executing 'Kullanıcı, seçilen ürün için ürün detayda {} tabına gider.' using 'class Tests.ProductTest.selectTabsNavigation"}
+{"logLevel":"debug","message":"Executing 'Sırala dropbox'ına tıklanır' using 'class Tests.ProductTest.clickSortDropbox"}
+{"logLevel":"debug","message":"Executing 'Sırala dropbox'ı doğru şekilde kontrol edilir.' using 'class Tests.ProductTest.sortElementControl"}
